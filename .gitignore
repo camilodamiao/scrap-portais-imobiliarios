@@ -1,0 +1,69 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+*.log
+zap_scraper.log
+
+# Dados sensíveis e outputs
+*.json
+!requirements.txt
+!package.json
+checkpoints/
+data/
+outputs/
+backups/
+
+# Credenciais
+credentials.json
+*.key
+*.pem
+.env
+config.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Playwright
+playwright-report/
+test-results/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Distribuição / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
